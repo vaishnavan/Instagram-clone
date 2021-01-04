@@ -1,0 +1,79 @@
+.insta_main{
+    width: 950px;
+    display: flex;
+}
+.insta_card{
+    display: inline-block;
+    border: 1px solid rgb(228, 225, 225);
+    margin-top: 70px;
+}
+.insta_head{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(228, 225, 225);
+    background-color: white;
+}
+.insta_profile img{
+    border-radius: 50%;
+}
+.insta_name{
+    margin-left: 10px;
+}
+.insta_post img{
+    width: 600px;
+    max-height: 550px;
+}
+.insta_cardBotm{
+    padding: 10px;
+    background-color: white;
+}
+.insta_icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.insta_iconL{
+    font-size: 18px;
+}
+.insta_iconR{
+    font-size: 18px;
+}
+.insta_status{
+    padding: 5px;
+    font-size: 16px;
+}
+.insta_upadte{
+    padding: 5px;
+    color: rgb(156, 156, 156);
+}
+.insta_stickyCard{
+    margin-top: 30px;
+    padding: 10px;
+    width: 380px;
+    top: 30;
+    position: fixed;
+    margin-left: 300px;
+}
+.switch_image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.insta_switch{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.switch_link{
+    color: blue;
+    font-weight: bold;
+}
+.insta_suggest{
+    padding: 30px;
+    color: gray;
+}
+.switch_link p{
+    cursor: pointer;
+}
